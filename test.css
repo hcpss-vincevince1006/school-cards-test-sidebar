@@ -1,0 +1,56 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  color: #515151;
+  background: #778893;
+}
+
+@media screen and (max-width: 42.8125em) {
+  body {
+    background: #fff url("https://s3.amazonaws.com/hcpss.web.site/images/header-stripe-mobile.png") repeat-x;
+  }
+}
+
+.header {
+  /* width: 90%; */
+  position: relative;
+  margin-top: -25px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  background: #FFF;
+  -webkit-box-shadow: -12px 5px 16px -9px black;
+  -moz-box-shadow: -12px 5px 16px -9px black;
+  box-shadow: -12px 5px 16px -9px black;
+}
+
+.container {
+  background: #778893;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#main-navigation {
+    width: 800px;
+    background-color: #1564A6;
+    color: white;
+    /* height: 40px; */
+    position: relative;
+    float: right;
+    /* margin-right: 70px; */
+    /* margin-top: -5px; */
+    /* padding-left: 30px; */
+    padding: 0.5em;
+}
+
+.sch-card {
+    /* border: 1px solid #686868; */
+    float: left;
+    padding: 0.5em;
+    margin: 0.2em;
+    background-color: #F2F8F8;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+

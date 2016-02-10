@@ -1,0 +1,128 @@
+<html>
+<head>
+  <title>test</title>
+  <link rel="stylesheet" type='text/css' href="http://s3.amazonaws.com/hcpss.web.site/images/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  
+  <link rel="stylesheet" type="text/css" href="./css/index2.css">
+</head>
+<body>
+
+<input type="checkbox" id="sidebartoggler">
+<div class="page__wrapper">
+
+<header class="header__title">
+  <img itemprop="logo" class="header__logo" src="http://s3.amazonaws.com/hcpss.web.site/images/hcpss-logo-outlined.png" height="60" width="60" alt="">
+  <h1>Howard County Public School System</h1>
+</header>
+
+<nav class="main__navigation">
+
+</nav>
+
+<main class="page__content">
+
+<div class="sch-card__filters">
+  <label class="toggle" for="sidebartoggler">Filters</label>
+</div>
+
+<div class="sch-card__categories">
+<section>
+  <strong>School Level</strong>
+  <div class="sch-card__categories-container-labels">
+      <input type="radio" name="filter" value="*" checked="checked"> All Schools (76) <br>
+      <input type="radio" name="filter" value=".sch-card__es"> Elementary (41)<br>
+      <input type="radio" name="filter" value=".sch-card__ms"> Middle (20)<br>
+      <input type="radio" name="filter" value=".sch-card__hs"> High (12)<br>
+      <input type="radio" name="filter" value=".sch-card__ed-center"> Education Center (3)
+  </div>
+</section>
+<section>
+  <strong>Maryland Awards</strong>
+  <div class="sch-card__categories-container-labels">
+      <input type="checkbox" name="filter" value=".sch-card__green"> Green School<br>
+      <input type="checkbox" name="filter" value=".sch-card__pbis"> PBIS Award Winner<br>
+      <input type="checkbox" name="filter" value=".sch-card__healthy"> Healthy Howard School
+  </div>
+</section>
+<section>
+<strong>National Awards</strong>
+  <div class="sch-card__categories-container-labels">
+      <input type="checkbox" name="filter" value=".sch-card__nce"> National Council of Excellence School<br>
+      <input type="checkbox" name="filter" value=".sch-card__blue-ribbon"> Blue Ribbon School
+  </div>
+</section>
+
+<div id="result-count"></div>
+</div>
+
+<h1>Schools</h1>
+
+<div class="sch-cards">
+
+  <div class="sch-cards__single">
+    <h2 class="sch-card__name heading--center">Applications and Research Lab (ARL)</h2>
+    <div class="sch-card__data">
+      <i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://arl.hcpss.org" target="_blank"> Web Site</a></span>
+    </div>
+    <p><strong>Administrator:</strong> Rick Robb</p>
+    <p><strong>Address:</strong> 10920 Clarksville Pike (Route 108), Ellicott City, MD 21042 (<a href="http://maps.google.com/maps?oe=utf-8&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;q=10920+Clarksville+Pike+(Route+108),+Ellicott+City,+MD+21042&amp;um=1&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89b7df60deca3539:0xd04203ca2c7c0e44,10920+Clarksville+Pike,+Ellicott+City,+MD+21042&amp;gl=us&amp;sa=X&amp;ei=OYoEUM7FEanW0QGm-MznBw&amp;ved=0CAgQ8gEwAA">Google map</a>)</p>
+    <p><strong>Phone:</strong> 410-313-6998</p>
+    <p><strong>Fax:</strong> 410-313-7000</p>
+    <section id="sch-card__data-toggle">
+    <h3 tabindex="0"><i class="fa fa-2 fa-angle-right"></i> School Data</h3>
+    <div class="hide">
+    <div class="sch-card__data">
+      <i class="sch-card__icon fa fa-line-chart fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/performance/ispr_en_ss_arl.pdf"> MSDE Performance Report</a></span>
+    </div>
+    </div>
+    </section>    
+  </div>
+
+  <div class="sch-cards__single">
+    <h2 class="sch-card__name heading--center">Applications and Research Lab (ARL)</h2>
+    <div class="sch-card__data">
+      <i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://arl.hcpss.org" target="_blank"> Web Site</a></span>
+    </div>
+    <p><strong>Administrator:</strong> Rick Robb</p>
+    <p><strong>Address:</strong> 10920 Clarksville Pike (Route 108), Ellicott City, MD 21042 (<a href="http://maps.google.com/maps?oe=utf-8&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;q=10920+Clarksville+Pike+(Route+108),+Ellicott+City,+MD+21042&amp;um=1&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89b7df60deca3539:0xd04203ca2c7c0e44,10920+Clarksville+Pike,+Ellicott+City,+MD+21042&amp;gl=us&amp;sa=X&amp;ei=OYoEUM7FEanW0QGm-MznBw&amp;ved=0CAgQ8gEwAA">Google map</a>)</p>
+    <p><strong>Phone:</strong> 410-313-6998</p>
+    <p><strong>Fax:</strong> 410-313-7000</p>
+    <section id="sch-card__data-toggle">
+    <h3 tabindex="0"><i class="fa fa-2 fa-angle-right"></i> School Data</h3>
+    <div class="hide">
+    <div class="sch-card__data">
+      <i class="sch-card__icon fa fa-line-chart fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/performance/ispr_en_ss_arl.pdf"> MSDE Performance Report</a></span>
+    </div>
+    </div>
+    </section>    
+  </div>
+
+  <div class="sch-cards__single">
+    <h2 class="sch-card__name heading--center">Applications and Research Lab (ARL)</h2>
+    <div class="sch-card__data">
+      <i class="sch-card__icon fa fa-cloud" style="color:#0063A4;"></i><span class="sch-card__icon-text"><a href="http://arl.hcpss.org" target="_blank"> Web Site</a></span>
+    </div>
+    <p><strong>Administrator:</strong> Rick Robb</p>
+    <p><strong>Address:</strong> 10920 Clarksville Pike (Route 108), Ellicott City, MD 21042 (<a href="http://maps.google.com/maps?oe=utf-8&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;q=10920+Clarksville+Pike+(Route+108),+Ellicott+City,+MD+21042&amp;um=1&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89b7df60deca3539:0xd04203ca2c7c0e44,10920+Clarksville+Pike,+Ellicott+City,+MD+21042&amp;gl=us&amp;sa=X&amp;ei=OYoEUM7FEanW0QGm-MznBw&amp;ved=0CAgQ8gEwAA">Google map</a>)</p>
+    <p><strong>Phone:</strong> 410-313-6998</p>
+    <p><strong>Fax:</strong> 410-313-7000</p>
+    <section id="sch-card__data-toggle">
+    <h3 tabindex="0"><i class="fa fa-2 fa-angle-right"></i> School Data</h3>
+    <div class="hide">
+    <div class="sch-card__data">
+      <i class="sch-card__icon fa fa-line-chart fa-2"></i><span class="sch-card__icon-text"><a href="http://www.hcpss.org/f/schools/performance/ispr_en_ss_arl.pdf"> MSDE Performance Report</a></span>
+    </div>
+    </div>
+    </section>    
+  </div>
+
+</div>
+
+</main>
+
+
+
+</div>
+
+</body>
+</html>
